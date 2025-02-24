@@ -9,38 +9,43 @@
     <title>Street Vibes</title>
 
 </head>
-<body>
+<body class="bodyC">
     <header>
-        <h2>StreetVibes</h2>
-
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                    <a href="playlist.html">Playlist</a>
-                    <a href="https://github.com/lrayssz">Sobre nós</a>
-                    <a href="#">Buscar</a>
-                    <a href="cadastro.html">Cadastro</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="logo">
+                <img src="img/favicon.png" alt="icon">
+                <h2>StreetVibes</h2>
+    
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                        <a href="playlist.html">Playlist</a>
+                        <a href="https://github.com/lrayssz">Sobre nós</a>
+                        <a href="#">Buscar</a>
+                        <a href="cadastro.html">Cadastro</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome" required placeholder="nome">
-            <br>
+    <section class="secao">
+        <main>
+            <div class="container">
+                <h2>Cadastre-se</h2>
+                <p>Insira seu e-mail para receber novidades</p>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required>
-            <br>
-
-            <label for="senha">Senha:</label>
-            <input type="number" name="senha" id="senha" required>
-            <br>
-        </form>
-    </main>
+                <form>
+                    <input type="email" placeholder="Digite seu e-mail" required>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </main>
+    
+        <aside>
+            <img src="img/aside.png" alt="">
+        </aside>
+    </section>
 
     <footer>
         <p>&copy; 2025 Portal de Notícias - Moda Streetwear. Por Laysla Rayssa.</p>
