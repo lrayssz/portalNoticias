@@ -54,10 +54,6 @@ nav ul {
     display: flex;
 }
 
-nav ul li {
-    margin-left: 590px;
-}
-
 nav ul li a {
     padding: 10px 20px;
     text-decoration: none;
@@ -105,7 +101,7 @@ main {
 }
 
 .divisoria img {
-    width: 1000px;
+    width: 95%;
     height: 10px;
     margin: 0 auto;
     display: block;
@@ -114,8 +110,10 @@ main {
 }
 
 article {
+    width: 80%;
     background-image: linear-gradient(45deg, lightgray, white);
-    margin: 25px;
+    margin: 0 auto;
+    margin-top: 40px;
     padding: 30px;
     border-radius: 9px;
     box-shadow: 1px 1px 10px var(--cor3);
@@ -183,7 +181,7 @@ iframe {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-85%, 10%);
+    transform: translate(-85%, -10%);
     color: white;
     box-shadow: 1px 1px 10px var(--cor3);
 }
@@ -265,7 +263,7 @@ aside {
 
 aside img {
     width: 300px;
-    height: 100%;
+    height: 100vh;
 }
 
 footer {
