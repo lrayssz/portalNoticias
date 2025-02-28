@@ -54,6 +54,12 @@ header h2 {
     justify-content: space-between;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav ul {
     list-style: none;
     margin: 0;
@@ -308,4 +314,46 @@ footer {
 footer p {
     text-align: center;
     padding: 10px;
+}
+.busca {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.9s;
+}
+
+.busca:hover {
+    background-color: white;
+    height: 35px;
+    width: 230px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoBusca {
+    border: none;
+    border-radius: 50px;
+    height: 1;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconeBusca img {
+    height: 22px;
+    width: 22px;
+    display: flex;
 }
