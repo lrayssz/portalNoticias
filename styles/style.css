@@ -119,7 +119,7 @@ main {
     margin: 0 auto;
     display: block;
     border-radius: 5px;
-    box-shadow: 1px 1px 10px var(--cor3);
+    box-shadow: 1px 1px 15px var(--cor3);
 }
 
 article {
@@ -143,10 +143,16 @@ article h3 {
 }
 
 article img {
-    width: 280px;
-    height: 150px;
+    width: 220px;
+    height: 160px;
     border-radius: 5px;
-    box-shadow: 1px 1px 10px var(--cor3);
+    box-shadow: 1px 1px 15px var(--cor3);
+    transition: 0.6s;
+}
+
+article img:hover {
+    width: 230px;
+    height: 170px;
 }
 
 .noticias {
@@ -155,11 +161,12 @@ article img {
 
 .noticias a {
     color: var(--cor1);
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .noticias a:hover {
     color: red;
+    font-weight: 500;
 }
 
 .playlist {
@@ -192,9 +199,9 @@ iframe {
 }
 
 .container {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -207,17 +214,18 @@ iframe {
 input {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    padding-left: 15px;
+    margin: 20px 0;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: var(--fonte);
 }
 button {
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     font-family: var(--fonte);
     transition: 0.9s;
@@ -225,6 +233,7 @@ button {
 button:hover {
     background-color: red;
     transform: scale(0.9);
+    font-size: 14px;
 }
 
 .noticiasDois {
